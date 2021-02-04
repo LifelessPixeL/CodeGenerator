@@ -9,7 +9,7 @@ PHP version: 7.4.3
 
 ## Installation
 
-Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
+Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/8.x/installation)
 
 
 Clone the repository
@@ -49,6 +49,10 @@ Run the database migrations with
 Start the local development server
 
     php artisan serve
+
+Start queue listen to process jobs in local environment
+
+    php artisan queue:listen
 
 You can now access the server at http://localhost:8000
 
